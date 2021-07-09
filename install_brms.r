@@ -1,4 +1,5 @@
 install.packages('tidyverse')
+install.packages("shinystan")
 
 dotR <- file.path(Sys.getenv("HOME"), ".R")
 if (!file.exists(dotR)) dir.create(dotR)
